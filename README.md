@@ -59,8 +59,8 @@ We try our best to maintain backwards compatability of our plugin with previous 
 | v0.34-v0.35             | v1.15-v1.17 *(RN refactored native hosting code)*    |
 | v0.36-v0.39             | v1.16-v1.17 *(RN refactored resume handler)*         |
 | v0.40-v0.42             | v1.17 *(RN refactored iOS header files)*             |
-| v0.43                   | v2.0+ *(RN refactored uimanager dependencies)*       |
-| v0.44+                  | TBD :) We work hard to respond to new RN releases, but they do occasionally break us. We will update this chart with each RN release, so that users can check to see what our "official" support is.
+| v0.43-v0.44             | v2.0+ *(RN refactored uimanager dependencies)*       |
+| v0.45+                  | TBD :) We work hard to respond to new RN releases, but they do occasionally break us. We will update this chart with each RN release, so that users can check to see what our "official" support is.
 
 ### Supported Components
 
@@ -386,7 +386,7 @@ And that's it! Now when you run or build your app, your staging builds will auto
 
 *Note: If you encounter the error message `ld: library not found for ...`, please consult [this issue](https://github.com/Microsoft/react-native-code-push/issues/426) for a possible solution.*
 
-Additionally, if you want to give them seperate names and/or icons, you can modify the `Product Name` and `Asset Catalog App Icon Set Name` build settings, which will allow your staging builds to be distinguishable from release builds when installed on the same device.
+Additionally, if you want to give them seperate names and/or icons, you can modify the `Product Bundle Identifier`, `Product Name` and `Asset Catalog App Icon Set Name` build settings, which will allow your staging builds to be distinguishable from release builds when installed on the same device.
 
 ### Dynamic Deployment Assignment
 
